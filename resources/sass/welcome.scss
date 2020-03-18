@@ -1,0 +1,108 @@
+a.default-btn {
+    text-decoration: none;
+}
+
+
+/* User Account Dropdown */
+
+.user-account {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0) !important;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 20%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.user-account>img {
+    padding: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    right: 0;
+    left: -125px;
+    min-width: 235px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1020;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 13px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+}
+
+.dropdown-content i {
+    font-size: 1.5em;
+    vertical-align: bottom;
+    margin-right: 0.2em;
+}
+
+.dropdown-is-shown {
+    display: block !important;
+}
+
+
+/* Badges */
+
+.app-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-badge-primary {
+    display: inline-block;
+    min-width: 1em;
+    padding: 0em 0.42em;
+    border-radius: 100%;
+    font-size: 16px;
+    text-align: center;
+    background: #1779ba;
+    color: #fefefe;
+}
+
+.app-badge-warning {
+    display: inline-block;
+    min-width: 1em;
+    padding: 0em 0.42em;
+    border-radius: 100%;
+    font-size: 16px;
+    text-align: center;
+    background: #ffc107;
+    color: #fefefe;
+}
+
+
+/* Events */
+
+.event-backdrop {
+    opacity: 0.18 !important;
+    top: 0em !important;
+    right: 0em !important;
+}
